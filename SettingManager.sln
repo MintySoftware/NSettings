@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingManager", "SettingManager\SettingManager.csproj", "{29A01363-F8E8-4C09-B87B-FA27B0422901}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6661CCA2-8638-4382-A292-12F59049B920}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		SettingManager.vsmdi = SettingManager.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingManagerTest", "SettingManagerTest\SettingManagerTest.csproj", "{DE99F252-9EC0-476D-87F8-019A298B4BF4}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SettingManager.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29A01363-F8E8-4C09-B87B-FA27B0422901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A01363-F8E8-4C09-B87B-FA27B0422901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A01363-F8E8-4C09-B87B-FA27B0422901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A01363-F8E8-4C09-B87B-FA27B0422901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE99F252-9EC0-476D-87F8-019A298B4BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE99F252-9EC0-476D-87F8-019A298B4BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE99F252-9EC0-476D-87F8-019A298B4BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE99F252-9EC0-476D-87F8-019A298B4BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
